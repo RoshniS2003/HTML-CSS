@@ -1,0 +1,27 @@
+<form action="/action">
+    <div>
+        <label for="Username">Enter Your Name:</label>
+        <input type="text" placeholder="Username" id="Username">
+    </div>
+
+    <br>
+    <!-- used name attributes so in url pass=123 means name=value -->
+    <div>
+        <label for="password">Enter Your Password:</label>
+        <input type="password" placeholder="Enter password" id="password" name="pass">
+    </div>
+    <br>
+
+    <button>Submit</button>
+    <!-- correct way -->
+    <button type="Submit">Log in</button>
+    <br><br>
+
+    <button type="button">Log in</button>
+    <button type="Reset">Reset</button>
+
+    <br><br>
+    <!-- not use -->
+    <input type="button" value="Click here">
+    <input type="submit" value="Click here">
+</form>
