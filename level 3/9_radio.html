@@ -1,0 +1,29 @@
+<form action="/action">
+    <!-- not in group so they checked multiple option -->
+    <label for="gender">Male</label>
+    <input type="radio" id="gender" />
+
+    <label for="gender">Female</label>
+    <input type="radio" id="gender" />
+
+    <hr>
+    <!-- common group name is Gender so they checked only one option -->
+    <input type="radio" id="male" name="gender" />
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" />
+    <label for="female">Female</label>
+
+    <button>Submit</button>
+    <!-- url is gender = on -->
+    <hr>
+    <input type="radio" id="male" name="gender" value="male" />
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="female">Female</label>
+
+    <button>Submit</button>
+    <!-- in url gender=male/female show that so we use value=female/male as same as label name -->
+    <!-- name = value -->
+</form>
