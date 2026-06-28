@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form in HTML</title>
+</head>
+
+<body>
+    <form action="/action">
+        <label for="username"> Name:</label>
+        <input type="text" id="username" name="name" />
+        <br><br>
+
+        <label for="sex">Sex:</label>
+        <input type="radio" id="male" name="sex" value="m" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="f" />
+        <label for="female">Female</label>
+
+        <br><br>
+        <label for="country"> Country:</label>
+        <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="i">India</option>
+            <option value="j">Japan</option>
+            <option value="c">China</option>
+        </select>
+
+        <br><br>
+        <label for="fb">Message:</label>
+        <br>
+        <textarea name="your_fb" id="fb" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="check" name="new_member">
+        <label for="check">Subscribe?</label>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
