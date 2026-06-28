@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="/action.php">
+        <h2>Registration Form</h2>
+        <div>
+            <input type="text" placeholder="First Name" name="fname">
+            <input type="text" placeholder="Last Name" name="lname">
+        </div>
+        <br>
+        <label for="gender"> Please Select gender</label>
+
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">female</option>
+            <option value="other">Others</option>
+        </select>
+        <br>
+        Do you agree to all terms of services?
+        <input type="checkbox" id="I_agree" name="I_agree">
+        <label for="I_agree">Yes, I agree</label>
+        <br>
+        <button type="submit">Register</button>
+        <button type="reset">Refresh</button>
+    </form>
+</body>
+
+</html>
