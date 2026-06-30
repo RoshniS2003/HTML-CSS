@@ -1,0 +1,15 @@
+h1{
+    /* color property */
+    color: blueviolet;
+
+    /* background color property */
+    background-color: aqua;
+}
+
+p {
+   color: blue;
+}
+
+button {
+    color: crimson;
+}
