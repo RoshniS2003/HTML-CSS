@@ -1,0 +1,171 @@
+/* Universal Selector */
+* {
+    font-family: 'Courier New';
+    background-color: bisque;
+}
+
+/* Element Selector */
+h1,
+h3 {
+    color: red;
+}
+
+/* ID selector */
+#login {
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+}
+
+#signup {
+    background-color: burlywood;
+}
+
+/* ........1)
+.follow {
+    background-color: yellow;
+    color: black;
+}*/
+
+/*  ..............2)
+p a{
+    color: green;
+    background-color: yellow;
+}
+    */
+
+/* .......1 and 2 both are correct but in 2 case all paragraph are select like follow,google link 
+    but we want to select only follow line paragraph so 1 case is correct if we want to choose
+    1 case so we add class attribute in paragraph tag...
+    
+    .................3)*/
+.post a {
+    color: black;
+    background-color: yellow;
+}
+
+
+/* Descendant Selector */
+nav ul li {
+    color: hotpink;
+
+    a {
+        color: darkorange
+    }
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/*  
+span button{
+    background-color: black;
+    color: white;
+} */
+
+
+/* Class Selector */
+.upvote {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* sibling Combinator */
+.upvote+button {
+    background-color: black;
+    color: white;
+}
+
+/* child combinator */
+div>input {
+    background-color: lightpink;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    color: brown;
+}
+
+input[type="password"] {
+    color: green;
+}
+
+/* 
+input[type]
+{
+    color: blue;
+    background-color: lightgreen;
+} */
+
+
+/* pseudo Hover class */
+button:hover {
+    background-color: lightskyblue;
+    color: blue;
+}
+
+h3:hover {
+    text-decoration: dashed underline;
+}
+
+/* 
+p:hover{
+    font-weight: bold;
+} */
+
+
+/* Active Class */
+button:active {
+    background-color: lawngreen;
+}
+
+p:active {
+    font-weight: 700;
+    color: orangered;
+}
+
+/* Checked Class */
+input[type="radio"]:checked {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+/* Checked class with sibling combinator */
+input[type="radio"]:checked+label {
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+/* nth - of -type .....we select paragraph....1n(all paragraph select),1,2,2n,,
+p:nth-of-type(1){
+    background-color: aquamarine;
+}*/
+
+/* We select class attributes... */
+.post:nth-of-type(even) {
+    background-color: paleturquoise;
+}
+
+/* div:nth-of-type(even) { 
+    background-color:paleturquoise;
+}*/
+
+h1::first-letter {
+    color: rgb(239, 26, 132);
+}
+
+/*  
+ p::first-line { 
+    color: green;
+}*/
+
+p::selection{
+    background-color: lightgreen;
+}
+
+h3{
+    background-color: darksalmon !important;
+}
+h3{
+    background-color: darkcyan;
+}
