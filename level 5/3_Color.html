@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>question</title>
+    <style>
+        /* if I want to select only one paragraph
+        but they select all the paragraph and change the font color*/
+        /* div p {
+            color: blue;
+
+
+            p {
+            color: blue;
+        } */
+
+        /* They select 1 and 2 paragraph but i want to select only 1 para */
+        /* 
+        div{
+            p{
+                color: brown;
+            }
+        } */
+
+        /* Both the correct */
+        /* 
+        div[id="para"]
+            p{
+                color:blue;
+                background-color: aqua;
+            }
+                 */
+
+        #para {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        This is paragraph 1.
+    </p>
+
+    <div>
+        <p>
+            This is paragraph 2.
+        </p>
+    </div>
+
+    <div id="para">
+        <p>
+            This is paragraph 3.
+        </p>
+    </div>
+
+</body>
+
+</html>
