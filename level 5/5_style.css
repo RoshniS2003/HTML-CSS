@@ -1,0 +1,18 @@
+/* :nth-of-type class...groups of lines color 
+div:nth-of-type(2){
+    background-color: lightblue;
+}*/
+
+/* nth - of -type .....we select paragraph....1n(all paragraph select),1,2,2n,,
+p:nth-of-type(1){
+    background-color: aquamarine;
+}
+
+/* We select class attributes... single lines color
+.post:nth-of-type(2n) {
+    background-color:paleturquoise;
+}*/
+
+div:nth-of-type(even) {
+    background-color: lightgreen;
+}
