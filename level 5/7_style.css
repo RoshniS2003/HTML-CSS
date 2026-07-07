@@ -1,0 +1,29 @@
+/* Universal Selector */
+* {
+    font-family: 'Courier New';
+}
+
+/* Element Selector */
+h1 {
+    color: #1b74e4;
+}
+
+/* ID Selector */
+/* id="searchbtn" */
+button {
+    background-color: black;
+    color: white;
+}
+
+/* If id and class both are given then
+ /* Class Selector */
+.userbtn {
+    background-color: aqua;
+    color: black;
+}
+
+#login,
+#register {
+    background-color: hotpink;
+    color: black;
+}
