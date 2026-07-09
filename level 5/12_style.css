@@ -1,0 +1,64 @@
+/* Id selector */
+#mainTopic {
+    color: blue;
+}
+
+/* Universal Selector */
+* {
+    text-align: center;
+}
+
+/* Element Selector */
+h1,
+h3,
+h5 {
+    font-family: georgia;
+}
+
+/* class selector */
+.para {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* descendant selector */
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+/* div { 
+    background-color: purple;
+    color: azure;
+}
+button{
+    background-color: inherit;
+}*/
+
+
+/* (Pseduo class & elements) */
+/* Hover*/
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/* nth - of -type */
+p:nth-of-type(odd) {
+    color: yellow;
+}
+
+h1::first-letter {
+    color: red
+}
+
+
+/* Both are same work...input & #yes */
+input[type="checkbox"]:checked+label {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#yes:checked+label {
+    color: hotpink;
+}
