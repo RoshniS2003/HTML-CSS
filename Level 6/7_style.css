@@ -1,0 +1,33 @@
+h1 {
+    border: 2px solid black;
+    width: 33.33%;
+}
+
+#outer {
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+#inner {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    /* margin-left: 10%; ...............with respect to parent class like height and width*/
+    /* margin: 40%; */
+    font-size: 0.5em;
+    /* 0.5*30 = 15 */
+    padding: 1em;
+}
+
+button {
+    border: 5px solid lightcoral;
+    border-radius: 15px;
+    font-size: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    /* padding-left: 20px;
+    padding-right: 20px; ................1em is better because font and padding size are equal*/
+}
