@@ -1,0 +1,12 @@
+div{
+    background-color: palevioletred;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+   display: inline-block;
+}
+
+#inner{
+    display: none;
+}
