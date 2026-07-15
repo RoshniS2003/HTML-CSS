@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rotate Que</title>
+    <style>
+        section {
+            margin-top: 100px;
+        }
+
+        div {
+            width: 200px;
+            height: 50px;
+            border: 2px solid black;
+            text-align: center;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+
+        div:nth-of-type(2n) {
+            background-color: rgba(255, 255, 0, 0.699);
+        }
+
+        div:nth-of-type(3n) {
+            background-color: lightsalmon
+        }
+
+        #one {
+            transform: rotate(45deg);
+        }
+
+        #four {
+            transform: rotate(-45deg);
+        }
+
+        #five {
+            transform: scale(0.5)
+        }
+
+        #three {
+            /* transform: translate(150px,100px); */
+            /* transform: translateX(-190px); */
+            /* transform: translateY(-190px); */
+            transform: translateX(100px);
+            /* transform: skew(-20deg); */
+            /* transform: skew(20deg); */
+        }
+
+        #two {
+            transform: rotate(-45deg) scale(1.5) translateX(-250px) skew(-20deg);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="one">1</div>
+        <div id="two">2</div>
+        <div id="three">3</div>
+        <div id="four">4</div>
+        <div id="five">5</div>
+    </section>
+</body>
+
+</html>
